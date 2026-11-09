@@ -30,6 +30,6 @@ def test_every_test_name_the_readme_cites_exists():
         assert re.search(rf"def {re.escape(stem)}_", sources), stem
 
 
-def test_readme_has_no_open_placeholders_besides_the_live_link():
-    todo_lines = [line for line in README.splitlines() if "TODO" in line]
-    assert len(todo_lines) == 1 and "Live-Link" in todo_lines[0]
+def test_readme_has_no_open_placeholders_and_names_the_live_link():
+    assert not [line for line in README.splitlines() if "TODO" in line]
+    assert "sebastianhanisch-bestandsallianz-demo.streamlit.app" in README

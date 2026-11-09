@@ -52,7 +52,7 @@ st.markdown(
 Mehrere Lager (Spediteure) halten je einen Bestand für ihre unsichere Nachfrage. Legen sie die Bestände zusammen, sinken die **erwarteten Kosten** der Allianz unter die Summe der Einzelkosten:
 das ist der **Gewinn des Bündelns**. Offen bleibt, **wie** man ihn aufteilt, damit niemand austritt. Eine Aufteilung im **Kern** schützt jede Teilgruppe davor, allein günstiger wegzukommen.
 
-Hier sind alle Stückkosten gleich. Stück der Linie „Gemeinsam gewinnen“ (Arbeitsname); der Vorgänger zeigt, dass das Bündeln Bestand spart, dieses Stück fragt, wie die Ersparnis verteilt wird.
+Hier sind alle Stückkosten gleich. Stück der Linie „Gemeinsam gewinnen“; der Vorgänger zeigt, dass das Bündeln Bestand spart, dieses Stück fragt, wie die Ersparnis verteilt wird.
 Weiter unten: das **Kernfrage**-Verdikt, vier **🔬 Experimente**, **🚧 Wo die Annahmen enden** und die Expander **⚠️ Annahmen, Grenzen und bekannte Probleme** und **📐 Mathematische Formulierung**.
 """
 )

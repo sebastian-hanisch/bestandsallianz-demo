@@ -1,9 +1,8 @@
 # Bestandsallianz: wer bekommt den Gewinn des Bündelns? – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-bestandsallianz-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-bestandsallianz-demo.streamlit.app/)**
 
-Stück der Linie **Gemeinsam gewinnen** (Arbeitsname; Name, Bereich und Themenfeld werden erst bei der Einbindung in die Website festgelegt). Vorgänger ist [buendelung-demo](https://github.com/sebastian-hanisch/buendelung-demo): Das Bündeln spart Bestand. Dieses Stück fragt, **wie man die Ersparnis aufteilt, damit keiner austritt**. Verwandt: [kern-demo](https://github.com/sebastian-hanisch/kern-demo) (Nukleolus und Aufteilung bei Touren), [shapley-demo](https://github.com/sebastian-hanisch/shapley-demo), [standort-bestand-demo](https://github.com/sebastian-hanisch/standort-bestand-demo), [kuchenteilung-demo](https://github.com/sebastian-hanisch/kuchenteilung-demo) und [verhandlung-demo](https://github.com/sebastian-hanisch/verhandlung-demo).
+Stück der Linie **Gemeinsam gewinnen**. Vorgänger ist [buendelung-demo](https://github.com/sebastian-hanisch/buendelung-demo): Das Bündeln spart Bestand. Dieses Stück fragt, **wie man die Ersparnis aufteilt, damit keiner austritt**. Verwandt: [kern-demo](https://github.com/sebastian-hanisch/kern-demo) (Nukleolus und Aufteilung bei Touren), [shapley-demo](https://github.com/sebastian-hanisch/shapley-demo), [standort-bestand-demo](https://github.com/sebastian-hanisch/standort-bestand-demo), [kuchenteilung-demo](https://github.com/sebastian-hanisch/kuchenteilung-demo) und [verhandlung-demo](https://github.com/sebastian-hanisch/verhandlung-demo).
 
 **Kernfrage:** Lohnt sich eine Bestandsallianz für jeden Teilnehmer, und gibt es immer eine Aufteilung, bei der keine Teilgruppe austreten will (der **Kern**)?
 
