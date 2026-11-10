@@ -57,6 +57,17 @@ Weiter unten: das **Kernfrage**-Verdikt, vier **🔬 Experimente**, **🚧 Wo di
 """
 )
 
+# erklaerseite:einfach:start (erzeugt von tools/set_demo_explainer.py (Website-Repo) aus tools/content/explainers/gewinn-teilen-erklaert.json, nicht von Hand ändern)
+with st.expander("💬 In einfachen Worten"):
+    st.markdown(
+        """
+Mehrere Lager legen ihre Bestände zusammen und sparen dadurch Kosten. Die Demo fragt, wie man die gemeinsamen Kosten auf die Lager verteilt, damit kein Lager und keine Gruppe lieber allein bliebe. Eine Aufteilung, bei der niemand austreten will, heißt **Kern**. Die Demo rechnet den **Gewinn des Bündelns** und die Aufteilungsregeln gleich teilen, nach der durchschnittlichen Nachfrage, nach den Einzelkosten und nach dem **Shapley-Wert** durch. Dann prüft sie, ob die Aufteilung der jeweiligen Regel im Kern liegt und welches Lager unter welcher Regel austreten würde. **Alle Lager haben dieselben Stückkosten, und die Nachfragen sind erzeugt, nicht gemessen.** Die Zählungen gelten für die gezogenen Zufallsinstanzen und sind kein Beweis.
+
+[Ausführlich und verständlich erklärt, mit Fachteil](https://sebastianhanisch.net/gewinn-teilen-erklaert.html)
+        """
+    )
+# erklaerseite:einfach:end
+
 st.caption("🔗 Die Adresszeile oben spiegelt Ihre aktuelle Konfiguration wider – einfach kopieren, um ein Szenario zu teilen.")
 
 load_permalink_settings()
@@ -280,6 +291,7 @@ with st.expander("⚠️ Annahmen, Grenzen und bekannte Probleme"):
     st.markdown(ASSUMPTIONS_MARKDOWN)
 
 with st.expander("📐 Mathematische Formulierung"):
+    # erklaerseite:lesehilfe:start (erzeugt von tools/set_demo_explainer.py (Website-Repo) aus tools/content/explainers/gewinn-teilen-erklaert.json, nicht von Hand ändern)
     st.markdown(
         r"""
 **Lesehilfe.** Gegeben sind $n$ Lager mit zufälliger Nachfrage $D_i$ und gleichen Stückkosten. Gesucht sind die Erwartungskosten jeder Gruppe von Lagern, der Gewinn des Bündelns und eine Aufteilung der Allianzkosten, bei der keine Gruppe austreten will.
@@ -296,6 +308,12 @@ with st.expander("📐 Mathematische Formulierung"):
 | $x_i$ | Anteil von Lager $i$ an den Allianzkosten |
 | $\varepsilon^*$ | kleinster Zuschlag, mit dem alle Koalitionen zufrieden sind |
 
+[Schritt für Schritt erklärt, mit Herleitung und Literatur](https://sebastianhanisch.net/gewinn-teilen-erklaert.html#fachleute)
+        """
+    )
+    # erklaerseite:lesehilfe:end
+    st.markdown(
+        r"""
 **Koalitionskosten** (bester Bestand $q$ für die Summe der Nachfragen):
 
 $$C(S)=\min_{q\ge 0}\ \mathbb{E}\big[c_u\,(D_S-q)^+ + c_o\,(q-D_S)^+\big],\qquad D_S=\sum_{i\in S}D_i$$
